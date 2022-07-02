@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismWpf.WeMail", "PrismWpf.WeMail\PrismWpf.WeMail.csproj", "{875939DD-A0D9-4694-A076-98EDD86C1EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpf.WeMail.Contact", "PrismWpf.WeMail.Contact\PrismWpf.WeMail.Contact.csproj", "{22F2D096-2D6F-4394-B715-4E727B4DF73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpf.WeMail.Common", "PrismWpf.WeMail.Common\PrismWpf.WeMail.Common.csproj", "{7B435228-C857-4DD2-9C23-8383A4B70185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{875939DD-A0D9-4694-A076-98EDD86C1EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875939DD-A0D9-4694-A076-98EDD86C1EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875939DD-A0D9-4694-A076-98EDD86C1EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875939DD-A0D9-4694-A076-98EDD86C1EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F2D096-2D6F-4394-B715-4E727B4DF73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F2D096-2D6F-4394-B715-4E727B4DF73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F2D096-2D6F-4394-B715-4E727B4DF73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F2D096-2D6F-4394-B715-4E727B4DF73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B435228-C857-4DD2-9C23-8383A4B70185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B435228-C857-4DD2-9C23-8383A4B70185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B435228-C857-4DD2-9C23-8383A4B70185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B435228-C857-4DD2-9C23-8383A4B70185}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A2BEB34-D23F-4EDC-B31A-8D198497F594}
+	EndGlobalSection
+EndGlobal
