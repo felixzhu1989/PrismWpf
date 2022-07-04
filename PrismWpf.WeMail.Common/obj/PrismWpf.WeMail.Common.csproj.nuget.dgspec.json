@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj": {}
+    "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj": {
+    "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj",
+        "projectUniqueName": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj",
         "projectName": "PrismWpf.WeMail.Common",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\obj\\",
+        "projectPath": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj",
+        "packagesPath": "C:\\Users\\felix.zhu\\.nuget\\packages\\",
+        "outputPath": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felix.zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +42,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +66,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

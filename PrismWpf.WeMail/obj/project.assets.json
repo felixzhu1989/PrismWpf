@@ -182,6 +182,22 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "PrismWpf.WeMail.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Prism.DryIoc": "8.1.97"
+        },
+        "compile": {
+          "bin/placeholder/PrismWpf.WeMail.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrismWpf.WeMail.Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -886,27 +902,37 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "PrismWpf.WeMail.Common/1.0.0": {
+      "type": "project",
+      "path": "../PrismWpf.WeMail.Common/PrismWpf.WeMail.Common.csproj",
+      "msbuildProject": "../PrismWpf.WeMail.Common/PrismWpf.WeMail.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Prism.DryIoc >= 8.1.97"
+      "Prism.DryIoc >= 8.1.97",
+      "PrismWpf.WeMail.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail\\PrismWpf.WeMail.csproj",
+      "projectUniqueName": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail\\PrismWpf.WeMail.csproj",
       "projectName": "PrismWpf.WeMail",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail\\PrismWpf.WeMail.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\PrismWpf\\PrismWpf.WeMail\\obj\\",
+      "projectPath": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail\\PrismWpf.WeMail.csproj",
+      "packagesPath": "C:\\Users\\felix.zhu\\.nuget\\packages\\",
+      "outputPath": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felix.zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -919,7 +945,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj": {
+              "projectPath": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Common\\PrismWpf.WeMail.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -955,7 +985,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,12 @@
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\bin\Debug\net6.0-windows\PrismWpf.WeMail.Common.deps.json
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\bin\Debug\net6.0-windows\PrismWpf.WeMail.Common.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\bin\Debug\net6.0-windows\PrismWpf.WeMail.Common.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.csproj.AssemblyReference.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.AssemblyInfoInputs.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.AssemblyInfo.cs
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\refint\PrismWpf.WeMail.Common.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\PrismWpf.WeMail.Common.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Common\obj\Debug\net6.0-windows\ref\PrismWpf.WeMail.Common.dll

@@ -1,0 +1,17 @@
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\bin\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.deps.json
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\bin\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\bin\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.csproj.AssemblyReference.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\Views\ScheduleView.g.cs
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule_MarkupCompile.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule_MarkupCompile.lref
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\Views\ScheduleView.baml
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.g.resources
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.AssemblyInfoInputs.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.AssemblyInfo.cs
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\refint\PrismWpf.WeMail.Schedule.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\ref\PrismWpf.WeMail.Schedule.dll
