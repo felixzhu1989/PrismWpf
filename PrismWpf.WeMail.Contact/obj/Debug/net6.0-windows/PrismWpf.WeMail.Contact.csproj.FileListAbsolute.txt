@@ -15,3 +15,7 @@ E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Contact\obj\Debug\net6.0-windows\PrismW
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Contact\obj\Debug\net6.0-windows\refint\PrismWpf.WeMail.Contact.dll
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Contact\obj\Debug\net6.0-windows\PrismWpf.WeMail.Contact.pdb
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Contact\obj\Debug\net6.0-windows\ref\PrismWpf.WeMail.Contact.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Contact.deps.json
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Contact.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Contact.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Contact\obj\Debug\net6.0-windows\PrismWpf.WeMail.Contact.csproj.CopyComplete

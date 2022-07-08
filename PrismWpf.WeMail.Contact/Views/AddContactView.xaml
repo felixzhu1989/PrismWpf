@@ -1,0 +1,121 @@
+﻿<UserControl
+    x:Class="PrismWpf.WeMail.Contact.Views.AddContactView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:PrismWpf.WeMail.Contact.Views"
+    xmlns:behavior="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:validationRules="clr-namespace:PrismWpf.WeMail.Common.ValidationRules;assembly=PrismWpf.WeMail.Common"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock
+                Text="名字"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="1"
+                Text="邮件"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="2"
+                Text="手机号"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="3"
+                Text="年龄"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="4"
+                Text="性别"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBox Grid.Column="1"
+                Text="{Binding Contact.Name}"
+                Width="250"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBox Grid.Row="1" Grid.Column="1"
+                Width="250"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16">
+                <TextBox.Text>
+                    <Binding
+                        Path="Contact.Mail"
+                        Delay="1000"
+                        UpdateSourceTrigger="PropertyChanged"
+                        NotifyOnValidationError="True">
+                        <Binding.ValidationRules>
+                            <validationRules:MailRule />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1"
+                Width="250"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16">
+                <TextBox.Text>
+                    <Binding
+                        Path="Contact.Phone"
+                        Delay="1000"
+                        UpdateSourceTrigger="PropertyChanged"
+                        NotifyOnValidationError="True">
+                        <Binding.ValidationRules>
+                            <validationRules:PhoneRule />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <TextBox Grid.Row="3" Grid.Column="1"
+                Text="{Binding Contact.Age}"
+                Width="250"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBox Grid.Row="4" Grid.Column="1"
+                Text="{Binding Contact.Gender}"
+                Width="250"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+        </Grid>
+        <Button Grid.Row="1"
+            Content="添加"
+            Command="{Binding AddContactCommand}"
+            Width="100"
+            Height="25"
+            Margin="10"
+            HorizontalAlignment="Right" />
+    </Grid>
+</UserControl>

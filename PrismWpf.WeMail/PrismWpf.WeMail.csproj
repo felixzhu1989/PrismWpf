@@ -8,11 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+    <PackageReference Include="NLog.Config" Version="4.7.15" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.0.1" />
     <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PrismWpf.WeMail.Common\PrismWpf.WeMail.Common.csproj" />
+    <ProjectReference Include="..\PrismWpf.WeMail.Controls\PrismWpf.WeMail.Controls.csproj" />
+    <ProjectReference Include="..\PrismWpf.WeMail.Dal\PrismWpf.WeMail.Dal.csproj" />
   </ItemGroup>
 
 </Project>

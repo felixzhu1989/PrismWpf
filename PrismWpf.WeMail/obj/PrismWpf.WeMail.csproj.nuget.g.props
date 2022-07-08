@@ -13,7 +13,21 @@
     <SourceRoot Include="C:\Users\felix.zhu\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)nlog.config\4.7.15\contentFiles\any\any\NLog.config" Condition="Exists('$(NuGetPackageRoot)nlog.config\4.7.15\contentFiles\any\any\NLog.config')">
+      <NuGetPackageId>NLog.Config</NuGetPackageId>
+      <NuGetPackageVersion>4.7.15</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>NLog.config</TargetPath>
+      <Private>True</Private>
+      <Link>NLog.config</Link>
+    </None>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\felix.zhu\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.31</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgNLog_Config Condition=" '$(PkgNLog_Config)' == '' ">C:\Users\felix.zhu\.nuget\packages\nlog.config\4.7.15</PkgNLog_Config>
+    <PkgMaterialDesignThemes Condition=" '$(PkgMaterialDesignThemes)' == '' ">C:\Users\felix.zhu\.nuget\packages\materialdesignthemes\4.5.0</PkgMaterialDesignThemes>
   </PropertyGroup>
 </Project>

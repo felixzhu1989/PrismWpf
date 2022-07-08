@@ -15,3 +15,7 @@ E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\Prism
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\refint\PrismWpf.WeMail.Schedule.dll
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.pdb
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\ref\PrismWpf.WeMail.Schedule.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.deps.json
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Schedule\obj\Debug\net6.0-windows\PrismWpf.WeMail.Schedule.csproj.CopyComplete

@@ -6,34 +6,102 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:PrismWpf.WeMail"
     xmlns:prism="http://prismlibrary.com/"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:converter="clr-namespace:PrismWpf.WeMail.Common.Converters;assembly=PrismWpf.WeMail.Common"
     Title="{Binding Title}"
-    Width="800"
-    Height="450"
+    Width="1280"
+    Height="720"
     prism:ViewModelLocator.AutoWireViewModel="True"
+    WindowStyle="None"
+    AllowsTransparency="True"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextElement.FontWeight="Regular"
+    TextElement.FontSize="13"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="微软雅黑"
+    WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Window.Resources>
-        <Style x:Key="ModuleItemStyle" TargetType="ListBoxItem">
-            <Setter Property="BorderThickness" Value="0" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <Grid>
-                            <TextBlock Text="{Binding ModuleName}" />
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+        <converter:MenuIconConverter x:Key="MenuIconConverter" />
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <ListBox
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border
+            Grid.ColumnSpan="2"
+            MouseLeftButtonDown="UIElement_OnMouseLeftButtonDown"
+            Background="{DynamicResource PrimaryHueLightBrush}" />
+        <Grid x:Name="GridTitle"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                <materialDesign:PackIcon
+                    Width="35"
+                    Height="35"
+                    Margin="10,0"
+                    VerticalAlignment="Center"
+                    Kind="EmailFast"
+                    Foreground="White" />
+                <TextBlock
+                    Text="WeMail"
+                    VerticalAlignment="Center"
+                    FontWeight="ExtraBold"
+                    FontSize="20"
+                    Foreground="White" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <materialDesign:PopupBox StaysOpen="True" Foreground="White">
+                    <StackPanel>
+                        <Button Content="设置账号" Command="{Binding LoginCommand}" />
+                    </StackPanel>
+                </materialDesign:PopupBox>
+                <Button x:Name="BtnMin"
+                    Content="{materialDesign:PackIcon Kind=Minus}"
+                    Click="BtnMin_OnClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent" />
+                <Button x:Name="BtnMax"
+                    Content="{materialDesign:PackIcon Kind=CropSquare}"
+                    Click="BtnMax_OnClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent" />
+                <Button x:Name="BtnClose"
+                    Content="{materialDesign:PackIcon Kind=Close}"
+                    Click="BtnClose_OnClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent" />
+            </StackPanel>
+        </Grid>
+        <ListBox Grid.Row="1"
             ItemsSource="{Binding Modules}"
-            SelectedItem="{Binding ModuleInfo}"
-            ItemContainerStyle="{StaticResource ModuleItemStyle}" />
-        <ContentControl Grid.Column="1" prism:RegionManager.RegionName="ContentRegion" />
+            SelectedItem="{Binding ModuleInfo}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon
+                            Width="25"
+                            Height="25"
+                            Margin="10,0"
+                            VerticalAlignment="Center"
+                            Kind="{Binding ModuleName, Converter={StaticResource MenuIconConverter}}" />
+                        <TextBlock
+                            Text="{Binding DisplayName}"
+                            VerticalAlignment="Center"
+                            FontSize="15"
+                            FontWeight="Bold" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ContentControl Grid.Row="1" Grid.Column="1"
+            prism:RegionManager.RegionName="ContentRegion" />
     </Grid>
 </Window>

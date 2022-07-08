@@ -1,0 +1,17 @@
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\bin\Debug\net6.0-windows\PrismWpf.WeMail.Controls.deps.json
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\bin\Debug\net6.0-windows\PrismWpf.WeMail.Controls.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\bin\Debug\net6.0-windows\PrismWpf.WeMail.Controls.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.csproj.AssemblyReference.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\Views\MessageDialogView.g.cs
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls_MarkupCompile.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls_MarkupCompile.lref
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\Views\MessageDialogView.baml
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.g.resources
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.AssemblyInfoInputs.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.AssemblyInfo.cs
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.csproj.CoreCompileInputs.cache
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\refint\PrismWpf.WeMail.Controls.dll
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\PrismWpf.WeMail.Controls.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail.Controls\obj\Debug\net6.0-windows\ref\PrismWpf.WeMail.Controls.dll

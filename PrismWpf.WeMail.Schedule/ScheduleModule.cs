@@ -2,6 +2,7 @@ using System;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
+using PrismWpf.WeMail.Schedule.ViewModels;
 using PrismWpf.WeMail.Schedule.Views;
 
 namespace PrismWpf.WeMail.Schedule
@@ -19,9 +20,7 @@ namespace PrismWpf.WeMail.Schedule
         }
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<ScheduleView>();
+            containerRegistry.RegisterForNavigation<ScheduleView,ScheduleViewModel>();
         }
-
-       
     }
 }

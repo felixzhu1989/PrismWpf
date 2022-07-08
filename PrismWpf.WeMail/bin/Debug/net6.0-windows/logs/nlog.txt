@@ -1,0 +1,1 @@
+2022-07-05 14:00:58.5601|Info|56|PrismWpf.WeMail.ViewModels.MainWindowViewModel|Hello NLog|

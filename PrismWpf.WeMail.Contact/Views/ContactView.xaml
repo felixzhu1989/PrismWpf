@@ -15,9 +15,7 @@
             <ColumnDefinition Width="2*" />
             <ColumnDefinition Width="8*" />
         </Grid.ColumnDefinitions>
-        <ListBox x:Name="LsbContact"
-            ItemsSource="{Binding Contacts}"
-            BorderThickness="0" />
+        <ListBox x:Name="LsbContact" ItemsSource="{Binding Contacts}" />
         <ContentControl Grid.Column="1"
             Content="{Binding ElementName=LsbContact, Path=SelectedItem}"
             HorizontalAlignment="Center"
