@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <BaseOutputPath>E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.0-ci234" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrismWpf.WeMail.Common\PrismWpf.WeMail.Common.csproj" />
+    <ProjectReference Include="..\PrismWpf.WeMail.Dal\PrismWpf.WeMail.Dal.csproj" />
+  </ItemGroup>
+
+</Project>

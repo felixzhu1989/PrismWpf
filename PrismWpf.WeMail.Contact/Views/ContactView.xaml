@@ -15,11 +15,88 @@
             <ColumnDefinition Width="2*" />
             <ColumnDefinition Width="8*" />
         </Grid.ColumnDefinitions>
-        <ListBox x:Name="LsbContact" ItemsSource="{Binding Contacts}" />
-        <ContentControl Grid.Column="1"
-            Content="{Binding ElementName=LsbContact, Path=SelectedItem}"
-            HorizontalAlignment="Center"
-            VerticalContentAlignment="Center"
-            FontSize="40" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Grid.Column="2"
+            Content="添加联系人"
+            Command="{Binding LaunchCommand}"
+            Width="120"
+            Height="25"
+            Margin="10,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center" />
+        <ListBox x:Name="LsbContact"
+            Grid.RowSpan="2"
+            ItemsSource="{Binding Contacts}" />
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0"
+                Text="名字："
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="1"
+                Text="邮件："
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="2"
+                Text="手机号："
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="3"
+                Text="年龄："
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="4"
+                Text="性别："
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="0" Grid.Column="1"
+                Text="{Binding ElementName=LsbContact, Path=SelectedItem.Name}"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="1" Grid.Column="1"
+                Text="{Binding ElementName=LsbContact, Path=SelectedItem.Mail}"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="2" Grid.Column="1"
+                Text="{Binding ElementName=LsbContact, Path=SelectedItem.Phone}"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="3" Grid.Column="1"
+                Text="{Binding ElementName=LsbContact, Path=SelectedItem.Age}"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+            <TextBlock Grid.Row="4" Grid.Column="1"
+                Text="{Binding ElementName=LsbContact, Path=SelectedItem.Gender}"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                FontSize="16" />
+        </Grid>
     </Grid>
 </UserControl>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "j44yGYz/BYEqb2tHArfJATR9Jh+FvGNjXKvlbctoDb0=",
+  "Source": "PrismWpf.WeMail.WebApi",
+  "BasePath": "_content/PrismWpf.WeMail.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

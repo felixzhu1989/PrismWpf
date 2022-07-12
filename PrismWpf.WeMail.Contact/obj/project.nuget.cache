@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hmH+McEfoopnzdxcd3I6j49fav/XOMiFjp1guvpK+17OyntuO51AR7dOhRxVh9ei3rxZ01GH2BclMx94JQSKvA==",
+  "dgSpecHash": "R3LMoWJoNt9ZG7F5/gkJiKviZk9nHiBFqU4dgE5zYgN6+E3gB3JbR9lxPTJUWh5VlDu1OQjLnlEa4IiLfpWTLg==",
   "success": true,
   "projectFilePath": "E:\\CSharp\\repos\\PrismWpf\\PrismWpf.WeMail.Contact\\PrismWpf.WeMail.Contact.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\felix.zhu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\prism.dryioc\\8.1.97\\prism.dryioc.8.1.97.nupkg.sha512",
     "C:\\Users\\felix.zhu\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512",

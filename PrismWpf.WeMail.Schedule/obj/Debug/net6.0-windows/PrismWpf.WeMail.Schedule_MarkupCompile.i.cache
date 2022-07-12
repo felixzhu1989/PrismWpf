@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 200-1203004070
 Views\ScheduleView.xaml;
 
-False
+True
 

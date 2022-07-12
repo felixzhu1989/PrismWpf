@@ -14,5 +14,9 @@ namespace PrismWpf.WeMail.Common.Models
         public string Name { get; set; }
         public int Age { get; set; }
         public Gender_e Gender { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

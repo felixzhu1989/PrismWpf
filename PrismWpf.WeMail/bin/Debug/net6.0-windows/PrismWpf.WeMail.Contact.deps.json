@@ -9,7 +9,8 @@
       "PrismWpf.WeMail.Contact/1.0.0": {
         "dependencies": {
           "Prism.DryIoc": "8.1.97",
-          "PrismWpf.WeMail.Common": "1.0.0"
+          "PrismWpf.WeMail.Common": "1.0.0",
+          "PrismWpf.WeMail.Dal": "1.0.0"
         },
         "runtime": {
           "PrismWpf.WeMail.Contact.dll": {}
@@ -135,6 +136,14 @@
         "runtime": {
           "PrismWpf.WeMail.Common.dll": {}
         }
+      },
+      "PrismWpf.WeMail.Dal/1.0.0": {
+        "dependencies": {
+          "PrismWpf.WeMail.Common": "1.0.0"
+        },
+        "runtime": {
+          "PrismWpf.WeMail.Dal.dll": {}
+        }
       }
     }
   },
@@ -250,6 +259,11 @@
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
     "PrismWpf.WeMail.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrismWpf.WeMail.Dal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

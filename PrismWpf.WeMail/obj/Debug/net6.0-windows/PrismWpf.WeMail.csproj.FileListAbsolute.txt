@@ -79,3 +79,4 @@ E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\obj\Debug\net6.0-windows\Views\UserLogi
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\obj\Debug\net6.0-windows\Views\UserLoginView.baml
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Dal.dll
 E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\PrismWpf.WeMail.Dal.pdb
+E:\CSharp\repos\PrismWpf\PrismWpf.WeMail\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

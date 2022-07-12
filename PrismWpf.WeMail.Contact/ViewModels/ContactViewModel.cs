@@ -5,14 +5,19 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using Prism.Commands;
 using Prism.Events;
 using Prism.Mvvm;
 using Prism.Regions;
 using Prism.Services.Dialogs;
 using PrismWpf.WeMail.Common.Events;
 using PrismWpf.WeMail.Common.Extensions;
+using PrismWpf.WeMail.Common.Models;
 using PrismWpf.WeMail.Common.Mvvm;
 using PrismWpf.WeMail.Common.User;
+using PrismWpf.WeMail.Dal;
+using PrismWpf.WeMail.Dal.Dtos;
 
 namespace PrismWpf.WeMail.Contact.ViewModels
 {
@@ -22,14 +27,17 @@ namespace PrismWpf.WeMail.Contact.ViewModels
         private readonly IDialogService _dialogService;
         public IView View { get; set; }
         private IUser _user;
-        private ObservableCollection<string> _contacts;
-        public ObservableCollection<string> Contacts => _contacts ??= new ObservableCollection<string>();
+        private ObservableCollection<ContactModel> _contacts;
+        public ObservableCollection<ContactModel> Contacts => _contacts ??= new ObservableCollection<ContactModel>();
         private string message;
         public string Message
         {
             get => message;
             set { message = value; RaisePropertyChanged();}
         }
+        public DelegateCommand LaunchCommand => new DelegateCommand(() => { View.Launch(); });
+
+
         public ContactViewModel(IEventAggregator aggregator,IDialogService dialogService,IUser user)
         {
             //获取框架内聚合器事件的引用
@@ -80,8 +88,28 @@ namespace PrismWpf.WeMail.Contact.ViewModels
         private void InitData()
         {
             Message = "Wemail.Contact Prism Module";
-            Contacts.Add("联系人张某");
-            Contacts.Add("联系人王某");
+            Application.Current.Dispatcher.Invoke(() =>
+            {
+                Contacts.Clear();
+                var contactsDto = HttpHelper.GetContacts();
+                Contacts.AddRange(ConvertToModel(contactsDto));
+            });
+        }
+
+        private List<ContactModel> ConvertToModel(List<ContactDto> contactsDto)
+        {
+            List<ContactModel> result=new List<ContactModel>();
+            contactsDto.ForEach(contact =>
+            {result.Add(new ContactModel()
+                {
+                    Name = contact.Name,
+                    Mail = contact.Mail,
+                    Phone = contact.Phone,
+                    Age = contact.Age,
+                    Gender = contact.Gender
+                });
+            });
+            return result;
         }
     }
 }

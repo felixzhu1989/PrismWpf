@@ -89,6 +89,9 @@ namespace PrismWpf.WeMail.ViewModels
                     case "Schedule":
                         Modules.Add(new MenuModel { DisplayName = "规划", ModuleName = tempModule.ModuleName, IconName = "ClockOutline" });
                         break;
+                    case "Mail":
+                        Modules.Add(new MenuModel { DisplayName = "邮件", ModuleName = tempModule.ModuleName, IconName = "EmailSyncOutline" });
+                        break;
                 }
             }
         }

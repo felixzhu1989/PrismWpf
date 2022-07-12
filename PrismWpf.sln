@@ -15,7 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{EFFFF554-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismWpf.WeMail.Controls", "PrismWpf.WeMail.Controls\PrismWpf.WeMail.Controls.csproj", "{60833CDB-52DA-4329-B32E-5BF87198FE85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpf.WeMail.Dal", "PrismWpf.WeMail.Dal\PrismWpf.WeMail.Dal.csproj", "{2288F2F1-7171-4698-AB06-47EF50BDB62C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismWpf.WeMail.Dal", "PrismWpf.WeMail.Dal\PrismWpf.WeMail.Dal.csproj", "{2288F2F1-7171-4698-AB06-47EF50BDB62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpf.WeMail.Mail", "PrismWpf.WeMail.Mail\PrismWpf.WeMail.Mail.csproj", "{CB15222C-36B4-4475-BAEF-5B1DF72D60DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpf.WeMail.WebApi", "PrismWpf.WeMail.WebApi\PrismWpf.WeMail.WebApi.csproj", "{49C1719D-2F4D-473A-9081-123B986E0FD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{2288F2F1-7171-4698-AB06-47EF50BDB62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2288F2F1-7171-4698-AB06-47EF50BDB62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2288F2F1-7171-4698-AB06-47EF50BDB62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB15222C-36B4-4475-BAEF-5B1DF72D60DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB15222C-36B4-4475-BAEF-5B1DF72D60DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB15222C-36B4-4475-BAEF-5B1DF72D60DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB15222C-36B4-4475-BAEF-5B1DF72D60DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C1719D-2F4D-473A-9081-123B986E0FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C1719D-2F4D-473A-9081-123B986E0FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C1719D-2F4D-473A-9081-123B986E0FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C1719D-2F4D-473A-9081-123B986E0FD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +66,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{22F2D096-2D6F-4394-B715-4E727B4DF73F} = {EFFFF554-B2F5-42DE-B5EA-780CA87C5199}
 		{51547A68-EF2B-4D96-B117-66A375EB033D} = {EFFFF554-B2F5-42DE-B5EA-780CA87C5199}
+		{CB15222C-36B4-4475-BAEF-5B1DF72D60DE} = {EFFFF554-B2F5-42DE-B5EA-780CA87C5199}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A2BEB34-D23F-4EDC-B31A-8D198497F594}
